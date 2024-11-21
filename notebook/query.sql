@@ -1,4 +1,2 @@
-SELECT 
-    '2024-11-20' AS dtRef
-    , v.*
+SELECT v.*
 FROM vendas v

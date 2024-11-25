@@ -15,11 +15,15 @@ Este projeto faz parte do teste proposto pela equipe de Recuros Humanos da QUOD 
 ### Parte 1 - Python
 1. Criar um dataset com pelo menos 50 registros, contendo as colunas - Id, Data, Produto, Categoria, Preço.
     1.1. Realização limpeza e manipulações necessárias nos dados;
+   
     1.2. Calcular o total de vendas (Quantidade * Preço);
+   
     1.3. Identificar o produto com maior total de vendas;
 ### Parte 2 - SQL
 2. Com o mesmo dataset escrever consultas para:
+
     2.1. Listar o nome do produto, categoria e a soma total de vendas (Quantidade * Preço) para cada produto. Ordene o resultado pelo valor total de vendas em ordem decrescente.
+   
     2.2. Identificar os produtos que venderam menos no mês de junho de 2024.
 
 ### Parte 3 - Interpretação de Resultados

@@ -130,23 +130,24 @@ ORDER BY 3 ASC; -- Odernamento do menor para o maior
 ```plaintext
 .
 ├── data/                  
-│   ├── database.db         
-│   └── processed/         
+│   ├── database.db                 # Banco de dados  
+│   └── processed/                  # Dados que passaram por processamento
 │       └── data_clean.csv          # Dataset da Parte 1
 │
-├── doc/                    
+├── doc/                            # Documentos e imagens
 │   ├── consultas_sql.sql           # Consultas da Parte 2 
 │   ├── relatorio_insights.md       # Relatório da Parte 3
-│   └── img/            
+|   ├── explicacoes.md              # Explicações sobre o código
+│   └── img/                        # Imagens geradas durante a análise
 │
-├── notebook/               
+├── notebook/                       # Jupyter Notebook
 │   ├── eda.ipynb                   # Análise da Parte 1
-│   └── query.sql           
+│   └── query.sql                   # Query para extração de dados
 │
-├── scr/                    
+├── scr/                            # Scripts
 │   └── generate_dataset.py         # Script Dados da Parte 1
 │
-├── poetry.lock             
+├── poetry.lock                     
 ├── pyproject.toml          
 ├── readme.md               
 
